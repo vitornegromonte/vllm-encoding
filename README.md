@@ -1,6 +1,6 @@
 # Motor de Linkage de BOs — v1 (handoff para backend)
 
-> **Este é um fork** de `../` (projeto original), adaptado pra usar
+> **Este é um fork** do projeto original, adaptado pra usar
 > **vLLM** como encoder de texto em vez de `sentence_transformers` puro.
 > `motor_linkage.py` **não muda** -- a troca é isolada num adapter
 > (`encoder_vllm.py`) que expõe a mesma interface `.encode(...)`.
